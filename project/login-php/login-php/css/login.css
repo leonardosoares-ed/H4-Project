@@ -1,0 +1,152 @@
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.hero.is-success {
+	background-image: url(../../../Asset/images/fundo.jpg);  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}
+
+
+
+.btn {
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  color: #444;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.btn:hover, .btn:focus {
+  background-color: rgba(204, 204, 204, 0.2);
+}
+.btn:active {
+  -webkit-transform: translateY(0.125rem);
+          transform: translateY(0.125rem);
+}
+.btn ~ .btn {
+  margin-bottom: 0.25rem;
+}
+.btn.-small {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+}
+.btn.-medium {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+.btn.-large {
+  font-size: 1.125rem;
+  padding: 1.5rem 3rem;
+}
+.btn.-xLarge {
+  font-size: 1.25rem;
+  padding: 2rem 4rem;
+}
+.btn.-primary {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  color: #fff;
+}
+.btn.-primary:hover, .btn.-primary:focus {
+  background-color: #226998;
+  border-color: #226998;
+  color: #fff;
+}
+.btn.-secondary {
+  background-color: #27ae60;
+  border-color: #27ae60;
+  color: #fff;
+}
+.btn.-secondary:hover, .btn.-secondary:focus {
+  background-color: #208d4e;
+  border-color: #208d4e;
+  color: #fff;
+}
+.btn.-tertiary {
+  background-color: #f39c12;
+  border-color: #f39c12;
+  color: #fff;
+}
+.btn.-tertiary:hover, .btn.-tertiary:focus {
+  background-color: #d2850b;
+  border-color: #d2850b;
+  color: #fff;
+}
+.btn.-custom {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: #fff;
+}
+.btn.-custom:hover, .btn.-custom:focus {
+  background-color: #df2e1b;
+  border-color: #df2e1b;
+  color: #fff;
+}
+
+
+
+.bloco {
+  color: #fff;
+}
+.bloco.-txtCenter {
+  text-align: center;
+}
+
+.titulos {
+  background-color: #1ccacd;
+  padding: 2rem 1rem;
+}
+.titulos.-small {
+  padding: 1rem 0.5rem;
+}
+.titulos > .tit {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.titulos > .desc {
+  font-size: .9rem;
+  font-weight: 300;
+  margin-top: .5rem;
+}
+.titulos .link {
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+.titulos .link:hover {
+  text-decoration: underline;
+}
+
+.bloco-botoes {
+  margin-top: 1rem;
+}
+
+.box-exemplos {
+  margin: 3.75rem 0;
+  color: #333;
+}
+.box-exemplos > .tit {
+  font-weight: 300;
+}
+.box-exemplos > .tit > .prefix {
+  font-size: 0.875rem;
+  background-color: rgba(51, 51, 51, 0.2);
+  padding: 0.125rem 0.3125rem;
+}

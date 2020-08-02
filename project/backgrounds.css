@@ -1,0 +1,48 @@
+.bg3 {
+  background-image: url("Asset/images/image1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: url("Asset/images/image2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg1 {
+  background-image: url("Asset/images/image3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg4 {
+  background-image: url("Asset/images/image4.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg5 {
+  background-image: url("Asset/images/image5.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form_O{
+	padding: 20px;
+    background-color: white;
+}
+
+.title-v1 {
+	    color: white;
+}

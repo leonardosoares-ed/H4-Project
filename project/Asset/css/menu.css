@@ -1,0 +1,137 @@
+.Uzi {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#one{
+  margin: 5% 2%;
+  width: 100%;
+  height: 1%;
+  padding-left: 20%;}
+
+#one > button {
+  text-decoration: none;
+  background-color: transparent;
+color: #000000;
+  font-family: sans-serif;
+  font-size: 25px;
+  border: 4px solid #272727;
+  padding: 20px 40px;
+  position: relative;
+  overflow: hidden;
+  border-width:2px;
+
+  float: left; 
+  
+}
+
+#one > button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffee66;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform-origin: top left ;
+  transform: rotate(90deg);
+  transition: transform 1s;
+}
+
+#one > button:hover:before {
+  transform: rotate(0deg);
+}
+
+#two > button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 25px;
+  border: 4px solid #272727;
+  padding: 20px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+#two > button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffee66;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform-origin: bottom left ;
+  transform: rotate(-90deg);
+  transition: transform 1s;
+}
+
+#two > button:hover:before {
+  transform: rotate(0deg);
+}
+
+
+#three > button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 25px;
+  border: 4px solid #272727;
+  padding: 20px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+#three > button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffee66;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform-origin: bottom right ;
+  transform: rotate(90deg);
+  transition: transform 1s;
+}
+
+#three > button:hover:before {
+  transform: rotate(0deg);
+}
+
+
+#four > button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 25px;
+  border: 4px solid #272727;
+  padding: 20px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+#four > button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffee66;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform-origin: top right ;
+  transform: rotate(-90deg);
+  transition: transform 1s;
+}
+
+#four > button:hover:before {
+  transform: rotate(0deg);
+}
